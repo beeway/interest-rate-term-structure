@@ -1,3 +1,5 @@
+# Sample code for yield curve classification.R
+
 getwd()
 setwd("/Users/beeway/Desktop/Interest Rates/Mypapers/Markov")
 
