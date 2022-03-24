@@ -13,4 +13,5 @@ This project classifies five shapes of the U.S. Treasury yield curve and examine
 
 
 # Resources available
-Each folder provides data, R codes, and visualization for specific features of the interest rate term structure.
+Each folder provides data, R codes, and visualization for specific features of the interest rate term structure. 
+For detailed explanations and functions, see R codes within each folder. Use R!
