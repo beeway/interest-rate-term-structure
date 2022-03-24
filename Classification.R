@@ -1,7 +1,7 @@
 # Sample code for yield curve classification.R
 
 getwd()
-setwd("/Users/beeway/Desktop/Interest Rates/Mypapers/Markov")
+setwd("")
 
 ## read data and form data frame
 mc=read.csv("mc.csv")   # mc is the original data; mmc include level, slope, curvature; mms includes the chain seq
@@ -15,11 +15,11 @@ str(mc)
 
 # creating counting dummy for each type - exhausting 756
 attach(yt)
-u=ifelse((tm-ts>0.1 & tm<=tl)| (tl-tm>0.1 & tm>=ts), 1, 0)     # upward    546
+u=ifelse((tm-ts>0.1 & tm<=tl)| (tl-tm>0.1 & tm>=ts), 1, 0)      # upward    546
 h=ifelse((tm-ts>0.1 & tm>tl) | (tm-tl>0.1 & tm>ts), 1, 0)       # hump      78
 f=ifelse(    abs(tm-ts)<=0.1 & abs(tl-tm)<=0.1, 1,0)            # flat      16  
 b=ifelse((ts-tm>0.1 & tl>tm) | (tl-tm>0.1 & ts>tm), 1, 0)       # bowl      40  
-d=ifelse((ts-tm>0.1 & tm>=tl)| (tm-tl>0.1 & ts>=tm), 1, 0)     # downward  76      
+d=ifelse((ts-tm>0.1 & tm>=tl)| (tm-tl>0.1 & ts>=tm), 1, 0)      # downward  76      
 
 
 ## calculating the number of ocurrence for each type and frequency
