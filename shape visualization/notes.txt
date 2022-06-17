@@ -1,0 +1,8 @@
+
+
+Shape visualization (1953.04-2020.03)
+
+Long yield is the average of 10, 20, 30 yields
+
+Graphs the five selected shapes in one picture
+
