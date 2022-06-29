@@ -1,0 +1,11 @@
+
+Five typical shapes
+
+2000-12 B or 2001-01
+1980-03 D or 1981-08
+2006-02 F or 2006-03
+1982-07 H or 1982-06
+2010-04 U or 1984-09
+
+Each shape csv file is from the "shape statistics" folder
+
