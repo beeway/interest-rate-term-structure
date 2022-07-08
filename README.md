@@ -9,7 +9,7 @@ https://openjournals.uwaterloo.ca/index.php/rofea/article/view/4698
 
 # Project for "Shape Transition of the Interest Rate Term Structure"
 
-By casting the yield curve shape transition into Markov chains, the paper estimates the transition probability from one yield curve shape to another, and finds strong momentum and asymmetry in the shape migration. The Markov model can serve as a basis for predicting future yield curve movements and business cycle transitions.
+The shape of the yield curve not only predicts U.S. busniess cycle downturns but also real output growth and inflation. By casting the yield curve shape transition into Markov chains, the paper estimates the transition probability from one yield curve shape to another, and finds strong momentum and asymmetry in the shape migration. The Markov model can serve as a basis for predicting future yield curve movements and business cycle transitions.
 
 
 # Project for "The Driving Forces of the Interest Rate Term Structure"
