@@ -16,7 +16,7 @@ The shape of the yield curve not only predicts U.S. busniess cycle downturns but
 
 
 
-# Resources available
-Each folder provides data, R codes, and visualization for specific features of the interest rate term structure. 
+# Resource available
+Each folder provides cleaned data, R codes, and visualization for specific features of the interest rate term structure. 
 For detailed explanations and functions, see R codes within each folder. Use R and ggplot!
 
