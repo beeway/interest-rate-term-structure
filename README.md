@@ -15,7 +15,6 @@ The shape of the yield curve not only predicts U.S. busniess cycle downturns but
 # Project for "The Driving Forces of the Interest Rate Term Structure"
 
 
-
 # Resource available
 Each folder provides cleaned data, R codes, and visualization for specific features of the interest rate term structure. 
 For detailed explanations and functions, see R codes within each folder. Use R and ggplot!
